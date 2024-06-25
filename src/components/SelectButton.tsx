@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/select";
 
 export default function SelectButton({
-  onChange,
   title,
   values
 }: {
