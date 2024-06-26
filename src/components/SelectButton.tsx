@@ -5,8 +5,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useState } from "react";
-import axios from "axios";
 
 export default function SelectButton({
   title,
@@ -26,7 +24,7 @@ export default function SelectButton({
         </SelectTrigger>
         <SelectContent>
           {values.map((value) => (
-            <SelectItem value={value}>{value}</SelectItem>
+            <SelectItem key={`${title + value}`} value={value}>{value}</SelectItem>
           ))}
         </SelectContent>
       </Select>
