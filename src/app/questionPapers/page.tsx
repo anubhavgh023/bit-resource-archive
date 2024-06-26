@@ -1,11 +1,10 @@
-import SemesterCard from "@/components/SemesterCard";
-import { useState } from "react";
+import DownloadComponentCard from "@/components/DownloadComponent";
 
-export default function DashboardPage() {
+export default function QuestionPaperPage() {
 
   return (
-    <div className="border border-slate-600 rounded-sm grid grid-cols-3 gap-10 w-full justify-between p-10">
- 
+    <div className="border border-slate-600 rounded-sm w-full justify-between p-10">
+      <DownloadComponentCard courseName="math" downloadLink="#"></DownloadComponentCard>
     </div>
   );
 }

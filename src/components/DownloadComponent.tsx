@@ -14,7 +14,7 @@ export default function DownloadComponentCard({
 
   return (
     <div className="flex justify-around p-2">
-      <Button variant={"outline"} className="w-1/2 hover:bg-transparent border-slate-700">
+      <Button variant={"outline"} className="w-3/5 hover:bg-transparent border-slate-700">
         {courseName}
       </Button>
       <a href={downloadLink}>
