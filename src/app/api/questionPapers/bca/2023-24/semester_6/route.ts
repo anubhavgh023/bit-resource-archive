@@ -1,17 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
+import * as data from '@/app/api/questionPapers/bca/2023-24/semester_6/sem6_ques.json'
 
 
 export async function POST(request: NextRequest) {
-
-    const subjects = [
-        {
-            courseName: "",
-            downloadLink: "#"
-        }
-    ]
-
     return NextResponse.json({
-
-        downloadLink: "#"
+        message: "received request",
+        data: data
     })
 }
