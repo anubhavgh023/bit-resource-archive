@@ -6,7 +6,7 @@ export default function QuestionPaperDisplay({
   data: { course: string; downloadLink: string }[];
 }) {
   return (
-    <div className="border border-slate-600 rounded-sm w-full justify-between p-10">
+    <>
       {data.map((paper, index) => (
         <DownloadComponentCard
           key={index}
@@ -14,6 +14,6 @@ export default function QuestionPaperDisplay({
           downloadLink={paper.downloadLink}
         />
       ))}
-    </div>
+    </>
   );
 }

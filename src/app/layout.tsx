@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>
-        <div className="flex gap-10 justify-between p-10">
+        <div className="flex flex-col md:flex-row lg:flex-row gap-10 justify-between p-10">
           <SideBar></SideBar>
           {children}
         </div>

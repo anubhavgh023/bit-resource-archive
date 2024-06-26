@@ -13,6 +13,7 @@ export default function DashboardPage() {
   const semesterCount = ["1", "2", "3", "4", "5", "6"];
 
   // get query details
+  const router = useRouter();
   const pathName = usePathname();
   const urlSegments = pathName.split("/");
   const course = urlSegments[2];
@@ -32,10 +33,9 @@ export default function DashboardPage() {
         }
       );
 
-      console.log(res.data.data);
-
       // set the question paper data for rendering
       setQuestionPaperData(res.data.data[`semester_${semester}`]);
+      
     } catch (error) {
       console.error("Error fetching question papers:", error);
     }
@@ -44,21 +44,24 @@ export default function DashboardPage() {
   console.log(questionPaperData);
 
   // --- conditional rendering of dashboard ---
-  return (
-    // question papers 
-    <div className="border border-slate-600 rounded-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full justify-between items-center p-10">
+    return (
+    <div className="border rounded-sm p-10 w-full">
       {questionPaperData.length > 0 ? (
-        <QuestionPaperDisplay data={questionPaperData} />
+        <div className="flex flex-col gap-5">
+          <QuestionPaperDisplay data={questionPaperData}></QuestionPaperDisplay>
+        </div>
       ) : (
-        // semester cards
-        semesterCount.map((semester) => (
-          <SemesterCard
-            key={semester}
-            semester={semester}
-            onClick={() => handleClick(semester)}
-          />
-        ))
+        <div className="rounded-sm grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {semesterCount.map((semester) => (
+            <SemesterCard
+              key={semester}
+              semester={semester}
+              onClick={() => handleClick(semester)}
+            />
+          ))}
+        </div>
       )}
     </div>
   );
+
 }

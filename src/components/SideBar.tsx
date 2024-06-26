@@ -2,8 +2,7 @@
 import SelectButton from "./SelectButton";
 import SearchButton from "./SearchButton";
 import { useState } from "react";
-import axios from "axios";
-import { useRouter } from 'next/navigation'
+import { useRouter } from "next/navigation";
 
 export default function SideBar() {
   const courseOptions = ["BCA", "BBA"];
@@ -12,7 +11,6 @@ export default function SideBar() {
   const [selectedCourse, setSelectedCourse] = useState<string>("");
   const [selectedYear, setSelectedYear] = useState<string>("");
 
-  
   // for navigation
   const router = useRouter();
 
@@ -26,24 +24,15 @@ export default function SideBar() {
     setSelectedYear(value);
   }
 
-  // post the {course,year} 
-  async function handleSubmit(event: React.FormEvent) {
+  function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
-
-    try {
-      if (selectedCourse !== '' && selectedYear !== '') {
-        router.push(`/dashboard/${selectedCourse.toLowerCase()}/${selectedYear}`);
-      } 
-
-    } catch (error) {
-      console.error("ERR: ", error);
+    if (selectedCourse !== "" && selectedYear !== "") {
+      router.push(`/dashboard/${selectedCourse.toLowerCase()}/${selectedYear}`);
     }
-
-
   }
 
   return (
-    <div className="border dark:border-slate-600 rounded-sm p-10 ">
+    <div className="border dark:border-slate-600 rounded-sm p-10 flex flex-col items-center ">
       <form
         onSubmit={handleSubmit}
         className="flex flex-col gap-10 items-center"
@@ -62,9 +51,6 @@ export default function SideBar() {
         </div>
         <div>
           <SearchButton></SearchButton>
-        </div>
-        <div>
-          path: {selectedCourse}/{selectedYear}
         </div>
       </form>
     </div>
