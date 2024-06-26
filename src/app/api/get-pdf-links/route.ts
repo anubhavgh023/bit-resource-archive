@@ -1,10 +1,20 @@
 import { NextRequest,NextResponse } from "next/server";
 
-export async function GET(request: NextRequest) {
-    const { course, year } = await request.json();
-    console.log(course, year);
+const quesPaper = [
+    {
+        course: "bca",
+        year: 2023,
+        subject: "mathematics",
+        paperLink: "#"
+    }
+];
+
+export async function POST(request: NextRequest) {
+    const reqBody = await request.json();
+
+    console.log(reqBody);
 
     return NextResponse.json({
-        message: "get pdf route"
+        message: "received request"
     })
 }
