@@ -5,7 +5,6 @@ import SemesterCard from "@/components/SemesterCard";
 import QuestionPaperDisplay from "@/components/QuestionPaperDisplay";
 
 export default function DashboardPage() {
-  const [selectedSemester, setSelectedSemester] = useState<string>("");
   const [questionPaperData, setQuestionPaperData] = useState<
     { course: string; downloadLink: { midsem: string; endsem: string } }[]
   >([]);
@@ -20,7 +19,6 @@ export default function DashboardPage() {
 
   // handle click with server actions
   async function handleClick(semester: string) {
-    setSelectedSemester(semester);
     try {
       if (course && year && semester) {
         // import the required json file dynamically
