@@ -7,7 +7,7 @@ import QuestionPaperDisplay from "@/components/QuestionPaperDisplay";
 export default function DashboardPage() {
   const [selectedSemester, setSelectedSemester] = useState<string>("");
   const [questionPaperData, setQuestionPaperData] = useState<
-    { course: string; downloadLink: { midsem: string; endsem:string} }[]
+    { course: string; downloadLink: { midsem: string; endsem: string } }[]
   >([]);
 
   const semesterCount = ["1", "2", "3", "4", "5", "6"];
@@ -24,7 +24,9 @@ export default function DashboardPage() {
     try {
       if (course && year && semester) {
         // import the required json file dynamically
-        const data = await import(`@/questionPaperData/${course}/${year}/sem${semester}_ques.json`);
+        const data = await import(
+          `@/questionPaperData/${course}/${year}/sem${semester}_ques.json`
+        );
 
         setQuestionPaperData(data.default[`semester_${semester}`]);
       }
@@ -36,7 +38,7 @@ export default function DashboardPage() {
   // --- conditional rendering of dashboard ---
   return (
     <div className="border rounded-sm p-10 w-full">
-      {(questionPaperData.length > 0) ? (
+      {questionPaperData.length > 0 ? (
         <div className="flex flex-col gap-5">
           <QuestionPaperDisplay data={questionPaperData}></QuestionPaperDisplay>
         </div>
