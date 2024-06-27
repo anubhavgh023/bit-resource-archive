@@ -4,8 +4,9 @@ import SemesterCard from "@/components/SemesterCard";
 import { usePathname } from "next/navigation";
 import axios from "axios";
 import QuestionPaperDisplay from "@/components/QuestionPaperDisplay";
+import getQuestionPapers from "@/lib/getQuestionPapers";
 
-export default function DashboardPage() {
+export default async function DashboardPage() {
   const [selectedSemester, setSelectedSemester] = useState<string>("");
   const [questionPaperData, setQuestionPaperData] = useState<
     { course: string; downloadLink: string }[]
@@ -19,32 +20,16 @@ export default function DashboardPage() {
   const course = urlSegments[2];
   const year = urlSegments[3];
 
-  // handle click
+  // handle click with server actions
   async function handleClick(semester: string) {
     setSelectedSemester(semester);
-
-    try {
-      const res = await axios.post(
-        `/api/questionPapers/${course}/${year}/semester_${semester}`,
-        {
-          course,
-          year,
-          semester,
-        }
-      );
-
-      // set the question paper data for rendering
-      setQuestionPaperData(res.data.data[`semester_${semester}`]);
-
-    } catch (error) {
-      console.error("Error fetching question papers:", error);
-    }
+    const data = await getQuestionPapers(course, year, semester);
+    console.log(data);
+    setQuestionPaperData(data);
   }
 
-  console.log(questionPaperData);
-
   // --- conditional rendering of dashboard ---
-    return (
+  return (
     <div className="border rounded-sm p-10 w-full">
       {questionPaperData.length > 0 ? (
         <div className="flex flex-col gap-5">
