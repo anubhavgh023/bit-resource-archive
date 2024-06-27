@@ -37,7 +37,7 @@ export default function DashboardPage() {
 
   // --- conditional rendering of dashboard ---
   return (
-    <div className="border rounded-sm p-10 w-full">
+    <div className="border border-slate-600 rounded-sm p-10 w-full">
       {questionPaperData.length > 0 ? (
         <div className="flex flex-col gap-5">
           <QuestionPaperDisplay data={questionPaperData}></QuestionPaperDisplay>

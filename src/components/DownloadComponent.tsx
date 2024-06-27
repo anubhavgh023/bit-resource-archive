@@ -13,10 +13,10 @@ export default function DownloadComponentCard({
   }
 
   return (
-    <div className="flex flex-col sm:flex-row justify-around p-2 gap-2">
+    <div className="flex flex-col sm:flex-row justify-around p-2 gap-5">
       <Button
         variant={"outline"}
-        className="w-full sm:w-4/5 hover:bg-transparent border-slate-700 text-xs sm:text-sm md:text-base"
+        className="w-full sm:w-4/5 hover:bg-transparent ring-2 ring-slate-500 text-xs sm:text-sm md:text-base"
       >
         {courseName}
 
