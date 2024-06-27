@@ -40,7 +40,7 @@ export default async function DashboardPage() {
           <QuestionPaperDisplay data={questionPaperData}></QuestionPaperDisplay>
         </div>
       ) : (
-        <div className="rounded-sm grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center mx-auto">
+        <div className="rounded-sm grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 place-items-center mx-auto">
           {semesterCount.map((semester) => (
             <SemesterCard
               key={semester}
