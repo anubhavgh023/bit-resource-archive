@@ -1,6 +1,12 @@
 {
   "semester_1": [
-    { "course": "C Programming", "downloadLink": "#" },
+    {
+      "course": "C Programming",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1DQvWYLpQ0kMsIFRdvaNds3RZWdJGSyG6/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1SJ1vAe4vcC1Sxuue3S7r6B9ntgrizwV6/view?usp=drive_link"
+      }
+    },
     { "course": "Elementary Mathematics", "downloadLink": "#" },
     { "course": "Fundamental of Computer Science", "downloadLink": "#" },
     { "course": "Human Values & Professional Ethics", "downloadLink": "#" },
