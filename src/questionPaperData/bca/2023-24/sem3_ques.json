@@ -1,0 +1,10 @@
+{
+  "semester_3": [
+    { "course": "c-programming", "downloadLink": "#" },
+    { "course": "os", "downloadLink": "#" },
+    { "course": "networking", "downloadLink": "#" },
+    { "course": "dbms", "downloadLink": "#" },
+    { "course": "linux", "downloadLink": "#" },
+    { "course": "mathematics", "downloadLink": "#" }
+  ]
+}
