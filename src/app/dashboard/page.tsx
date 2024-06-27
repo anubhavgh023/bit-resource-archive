@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { usePathname } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import SemesterCard from "@/components/SemesterCard";
 import QuestionPaperDisplay from "@/components/QuestionPaperDisplay";
 
@@ -13,10 +13,10 @@ export default function DashboardPage() {
   const semesterCount = ["1", "2", "3", "4", "5", "6"];
 
   // get query details
-  const pathName = usePathname();
-  const urlSegments = pathName.split("/");
-  const course = urlSegments[2];
-  const year = urlSegments[3];
+  const searchParams = useSearchParams();
+  const course = searchParams.get('course');
+  const year = searchParams.get('year');
+
 
   // handle click with server actions
   async function handleClick(semester: string) {
