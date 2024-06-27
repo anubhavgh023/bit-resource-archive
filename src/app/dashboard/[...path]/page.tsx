@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import SemesterCard from "@/components/SemesterCard";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import axios from "axios";
 import QuestionPaperDisplay from "@/components/QuestionPaperDisplay";
 
@@ -10,10 +10,10 @@ export default function DashboardPage() {
   const [questionPaperData, setQuestionPaperData] = useState<
     { course: string; downloadLink: string }[]
   >([]);
+
   const semesterCount = ["1", "2", "3", "4", "5", "6"];
 
   // get query details
-  const router = useRouter();
   const pathName = usePathname();
   const urlSegments = pathName.split("/");
   const course = urlSegments[2];
@@ -35,7 +35,7 @@ export default function DashboardPage() {
 
       // set the question paper data for rendering
       setQuestionPaperData(res.data.data[`semester_${semester}`]);
-      
+
     } catch (error) {
       console.error("Error fetching question papers:", error);
     }
@@ -63,5 +63,4 @@ export default function DashboardPage() {
       )}
     </div>
   );
-
 }
