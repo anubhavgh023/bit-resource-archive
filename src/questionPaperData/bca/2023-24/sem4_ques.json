@@ -1,10 +1,8 @@
 {
   "semester_4": [
-    { "course": "c-programming", "downloadLink": "#" },
-    { "course": "os", "downloadLink": "#" },
-    { "course": "networking", "downloadLink": "#" },
-    { "course": "dbms", "downloadLink": "#" },
-    { "course": "linux", "downloadLink": "#" },
-    { "course": "mathematics", "downloadLink": "#" }
+    { "course": "Human Values", "downloadLink": "#" },
+    { "course": "Optimization Techniques", "downloadLink": "#" },
+    { "course": "Software Engineering", "downloadLink": "#" },
+    { "course": "Web Programming", "downloadLink": "#" }
   ]
 }

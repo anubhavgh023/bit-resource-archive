@@ -1,10 +1,9 @@
 {
   "semester_5": [
-    { "course": "c-programming", "downloadLink": "#" },
-    { "course": "os", "downloadLink": "#" },
-    { "course": "networking", "downloadLink": "#" },
-    { "course": "dbms", "downloadLink": "#" },
-    { "course": "linux", "downloadLink": "#" },
-    { "course": "mathematics", "downloadLink": "#" }
+    { "course": "Computer Graphics & Multimedia ", "downloadLink": "#" },
+    { "course": "Computer network", "downloadLink": "#" },
+    { "course": "Management Information System ", "downloadLink": "#" },
+    { "course": "Python Programming", "downloadLink": "#" },
+    { "course": "Software Testing", "downloadLink": "#" }
   ]
 }
