@@ -5,7 +5,7 @@ import SemesterCard from "@/components/SemesterCard";
 import QuestionPaperDisplay from "@/components/QuestionPaperDisplay";
 import getQuestionPapers from "@/lib/getQuestionPapers";
 
-export default async function DashboardPage() {
+export default function DashboardPage() {
   const [selectedSemester, setSelectedSemester] = useState<string>("");
   const [questionPaperData, setQuestionPaperData] = useState<
     { course: string; downloadLink: string }[]
@@ -24,8 +24,10 @@ export default async function DashboardPage() {
     setSelectedSemester(semester);
     try {
       if (course && year && semester) {
-        const data = await getQuestionPapers(course, year, semester);
-        setQuestionPaperData(data);
+        // import the required json file dynamically
+        const data = await import(`@/questionPaperData/${course}/${year}/sem${semester}_ques.json`);
+
+        setQuestionPaperData(data.default[`semester_${semester}`]);
       }
     } catch (error) {
       console.error("Error fetching questionPaper data", error);

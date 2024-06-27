@@ -16,7 +16,7 @@ export default function DownloadComponentCard({
     <div className="flex flex-col sm:flex-row justify-around p-2 gap-2">
       <Button
         variant={"outline"}
-        className="w-full sm:w-3/5 hover:bg-transparent border-slate-700 text-xs sm:text-sm md:text-base">
+        className="w-full sm:w-4/5 hover:bg-transparent border-slate-700 text-xs sm:text-sm md:text-base">
         {courseName}
       </Button>
       <a href={downloadLink} className="w-full sm:w-auto">
