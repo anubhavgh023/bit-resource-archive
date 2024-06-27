@@ -3,7 +3,6 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import SemesterCard from "@/components/SemesterCard";
 import QuestionPaperDisplay from "@/components/QuestionPaperDisplay";
-import getQuestionPapers from "@/lib/getQuestionPapers";
 
 export default function DashboardPage() {
   const [selectedSemester, setSelectedSemester] = useState<string>("");
