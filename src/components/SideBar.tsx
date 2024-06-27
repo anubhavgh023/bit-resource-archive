@@ -27,7 +27,7 @@ export default function SideBar() {
   function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
     if (selectedCourse !== "" && selectedYear !== "") {
-      router.push(`/dashboard/${selectedCourse.toLowerCase()}/${selectedYear}`);
+      router.push(`/dashboard?course=${selectedCourse.toLowerCase()}&&year=${selectedYear}`);
     }
   }
 
