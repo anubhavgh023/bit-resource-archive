@@ -1,8 +1,7 @@
 "use client";
 import { useState } from "react";
-import SemesterCard from "@/components/SemesterCard";
 import { usePathname } from "next/navigation";
-import axios from "axios";
+import SemesterCard from "@/components/SemesterCard";
 import QuestionPaperDisplay from "@/components/QuestionPaperDisplay";
 import getQuestionPapers from "@/lib/getQuestionPapers";
 
@@ -23,15 +22,20 @@ export default async function DashboardPage() {
   // handle click with server actions
   async function handleClick(semester: string) {
     setSelectedSemester(semester);
-    const data = await getQuestionPapers(course, year, semester);
-    console.log(data);
-    setQuestionPaperData(data);
+    try {
+      if (course && year && semester) {
+        const data = await getQuestionPapers(course, year, semester);
+        setQuestionPaperData(data);
+      }
+    } catch (error) {
+      console.error("Error fetching questionPaper data", error);
+    }
   }
 
   // --- conditional rendering of dashboard ---
   return (
     <div className="border rounded-sm p-10 w-full">
-      {questionPaperData.length > 0 ? (
+      {(questionPaperData.length > 0) ? (
         <div className="flex flex-col gap-5">
           <QuestionPaperDisplay data={questionPaperData}></QuestionPaperDisplay>
         </div>
