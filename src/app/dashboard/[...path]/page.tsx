@@ -8,7 +8,7 @@ import getQuestionPapers from "@/lib/getQuestionPapers";
 export default function DashboardPage() {
   const [selectedSemester, setSelectedSemester] = useState<string>("");
   const [questionPaperData, setQuestionPaperData] = useState<
-    { course: string; downloadLink: string }[]
+    { course: string; downloadLink: { midsem: string; endsem:string} }[]
   >([]);
 
   const semesterCount = ["1", "2", "3", "4", "5", "6"];

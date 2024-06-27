@@ -3,7 +3,7 @@ import DownloadComponentCard from "@/components/DownloadComponent";
 export default function QuestionPaperDisplay({
   data,
 }: {
-  data: { course: string; downloadLink: string }[];
+  data: { course: string; downloadLink: { midsem: string; endsem: string } }[];
 }) {
   return (
     <>
