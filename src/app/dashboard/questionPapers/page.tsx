@@ -8,12 +8,13 @@ export default function QuestionPaperPage() {
     { course: string; downloadLink: { midsem: string; endsem: string } }[]
   >([]);
 
+  // get query parameters
   const searchParams = useSearchParams();
   const course = searchParams.get("course");
   const year = searchParams.get("year");
   const semester = searchParams.get("semester");
 
-  // fetching questionPaper json data on initial load
+  // fetch questionPaper json data on initial load
   useEffect(() => {
     new Promise(r => setTimeout(r, 2000));
     const fetchData = async () => {
@@ -29,7 +30,7 @@ export default function QuestionPaperPage() {
         console.error("Error fetching questionPaper data", error);
       }
     };
-    // Call fetchData fn
+    // call fetchData fn
     fetchData();
   }, [course,year,semester]);
 
