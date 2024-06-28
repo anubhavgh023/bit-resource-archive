@@ -1,8 +1,32 @@
 {
   "semester_3": [
-    { "course": "Computer Algorithms", "downloadLink": "#" },
-    { "course": "Computer Oriented & Numerical Statistics", "downloadLink": "#" },
-    { "course": "dbms", "downloadLink": "#" },
-    { "course": "Java Programming", "downloadLink": "#" }
+    {
+      "course": "Computer Algorithms",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1Wa7vwzefCcobSeIqSZzmyN5pxoVWvTje/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1ZMzVdEyJnDGizBGWk3m6hIO-nWVCe8tb/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Computer Oriented & Numerical Statistics",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1YDyyIaHsFQs5_p1MIaaMRqrJAcvAQl_z/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1EEG9UNdVfZcT1wpAAqCbI0CEYiEQ_6a_/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "dbms",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1MGR0z-YQUXUvbPNuxTMfmUi4uQlEr-RK/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1s70lWzs9-bfpO2jkqzr9pw0UsomoEd3b/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Java Programming",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1Jru1CFH_Mvem4lEu0PvIfbwzAOd_kaHE/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1rGa8ZyMGJA29UIoSlQDPLDOZg4_LwY_Y/view?usp=drive_link"
+      }
+    }
   ]
 }

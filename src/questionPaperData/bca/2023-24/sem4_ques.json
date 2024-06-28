@@ -1,8 +1,32 @@
 {
   "semester_4": [
-    { "course": "Human Values", "downloadLink": "#" },
-    { "course": "Optimization Techniques", "downloadLink": "#" },
-    { "course": "Software Engineering", "downloadLink": "#" },
-    { "course": "Web Programming", "downloadLink": "#" }
+    {
+      "course": "Human Values",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/14jyZp8tKTO2VDW1207HeRJ4G4BZtgppJ/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1XaCoikXhIh-21eFCOEV5NztalpIq5K2Y/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Optimization Techniques",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1cmB-XPek0XCykNivVCPiUBBJNawxkUR0/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1pZqmcHMYw06kndrXFPO4p2m5uNNgFYZL/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Software Engineering",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1bnD7v8pBRHsRJyrnX4TDknELywJsgGKS/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1xG9Rs4u2iDr3ouTNPkyARu5cq7LJQfR0/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Web Programming",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1jv8cbLyx0RAIskNZFOhmhzyNpT1IzvK0/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1QKY8nsZcK2Otu6wlveNk7B4XKBUjUOrT/view?usp=drive_link"
+      }
+    }
   ]
 }

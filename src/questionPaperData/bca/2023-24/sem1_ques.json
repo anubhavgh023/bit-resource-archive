@@ -7,12 +7,54 @@
         "endsem": "https://drive.google.com/file/d/1SJ1vAe4vcC1Sxuue3S7r6B9ntgrizwV6/view?usp=drive_link"
       }
     },
-    { "course": "Elementary Mathematics", "downloadLink": "#" },
-    { "course": "Fundamental of Computer Science", "downloadLink": "#" },
-    { "course": "Human Values & Professional Ethics", "downloadLink": "#" },
-    { "course": "Linux Administration", "downloadLink": "#" },
-    { "course": "Operation System", "downloadLink": "#" },
-    { "course": "Principles of Management", "downloadLink": "#" },
-    { "course": "Yoga", "downloadLink": "#" }
+    {
+      "course": "Elementary Mathematics",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1B0In-DyBsWKHkT7G2O-XNk2Had6fUm-G/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1NJm81WXAt-JQLZMMs6KNknq8WnT-jV1E/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Fundamental of Computer Science",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1F_Zj_yPVp5dbUG9_52KU7LG9gOLLKG-i/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1KzoediGV8c8AAArV0hxhGvpcisDQx_-h/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Human Values & Professional Ethics",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1JtSvrBojlnbDMcqvlXZUypeXWkka82d2/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1EaRtLW1VU_z4MzpLJD-rN158O6jLlTg8/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Linux Administration",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1b-mlaoAcSR4BZLoxNIs2pZCnLlNx_uH-/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1b2xxTVHOloAW4vlz8bQ1L_fcyjoehidj/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Operation System",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/197I68IrrisGNjeu1vTWcRjPEjINwMZ3q/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1OZpV8Q7Ev9bg2QM-fNG3QU_3b-OAgsw_/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Principles of Management",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1xvJ7llu6Z7YDPmLBo4-Feif4JrjsJe0E/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1XOsYSp3N56Cd0WOk6N7gv24tn6y71OBr/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Yoga",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1Acmn6qkAtNg3eC05Tmb933uzHGAcGegA/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/182kBHgYekokz-Ts1aOd6KdOZ5CuEN1rG/view?usp=drive_link"
+      }
+    }
   ]
 }

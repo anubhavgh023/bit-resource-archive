@@ -1,8 +1,32 @@
 {
   "semester_2": [
-    { "course": "Data Structure", "downloadLink": "#" },
-    { "course": "Digital Computer & Logic Design", "downloadLink": "#" },
-    { "course": "Digital Empowerment", "downloadLink": "#" },
-    { "course": "Mathematics for Computing", "downloadLink": "#" }
+    {
+      "course": "Data Structure",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1_jUoPlLIlwdNnb2YVxvKVD_tq-BY77fX/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1uL4jVALJT38VC6-dY8VrUIQL3600idmS/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Digital Computer & Logic Design",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1xJ1xz9I2d_ZStyOo51NjD0HoiJztiHgp/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1TakNDhf4o5Sp3Kk8seL-xrMwtRYyND1L/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Digital Empowerment",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1k8n3yBpR_nH5NOaEuliWjdffwLwu_ASC/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1-uAy3hMKn_w6ubQGOehYFYeUe4wSloWq/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Mathematics for Computing",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1VcLc6NWIhORDiU68_hRxwdUNHF2TnydV/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1SWK0d0gB7kxgl2b6KKNAi01EFBMRw_Mn/view?usp=drive_link"
+      }
+    }
   ]
 }
