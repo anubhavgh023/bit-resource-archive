@@ -2,6 +2,8 @@
 
 A web application built using Next.js for managing and archiving resources.
 
+### [Live Here](https://bit-resource-archive.vercel.app/)
+
 ## Tech Used
 - [Next.js](https://nextjs.org/)
 - [Tailwind](https://tailwindcss.com/)
