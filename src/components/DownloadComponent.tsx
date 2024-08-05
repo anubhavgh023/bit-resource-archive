@@ -8,9 +8,6 @@ export default function DownloadComponentCard({
   courseName: string;
   downloadLink: { midsem: string; endsem: string };
 }) {
-  function handleClick() {
-    console.log("button clicked");
-  }
 
   return (
     <div className="flex flex-col sm:flex-row justify-around p-2 gap-5">
@@ -27,7 +24,6 @@ export default function DownloadComponentCard({
           <Button
             variant={"outline"}
             className="w-full sm:w-auto ring-2 ring-blue-400 hover:ring-2 active:scale-95 transition delay-15"
-            onClick={handleClick}
           >
             Mid Sem
           </Button>
@@ -38,7 +34,6 @@ export default function DownloadComponentCard({
           <Button
             variant={"outline"}
             className="w-full sm:w-auto ring-2 ring-purple-400 hover:ring-2 active:scale-95 transition delay-15"
-            onClick={handleClick}
           >
             End Sem
           </Button>
