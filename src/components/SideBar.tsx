@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 export default function SideBar() {
-  const courseOptions = ["BCA", "BBA"];
+  const courseOptions = ["BCA"];
   const yearOptions = ["2023-24", "2022-23"];
 
   const [selectedCourse, setSelectedCourse] = useState<string>("");
@@ -40,7 +40,7 @@ export default function SideBar() {
         <div className="flex flex-col gap-4">
           <SelectButton
             onValueChange={handleCourseChange}
-            title="BCA / BBA ?"
+            title="Course ?"
             values={courseOptions}
           ></SelectButton>
           <SelectButton
