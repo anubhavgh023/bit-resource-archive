@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 export default function SideBar() {
   const courseOptions = ["BCA"];
-  const yearOptions = ["2023-24", "2022-23"];
+  const yearOptions = ["2023-24"];
 
   const [selectedCourse, setSelectedCourse] = useState<string>("");
   const [selectedYear, setSelectedYear] = useState<string>("");
