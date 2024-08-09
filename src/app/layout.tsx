@@ -21,9 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${inter.className} flex flex-col min-h-screen`}>
-        <Link href="/" className="flex justify-center items-center py-5">
+        <div className="flex justify-center items-center py-5">
           <TitleBar />
-        </Link>
+        </div>
         <div className="flex-grow flex flex-col md:flex-row lg:flex-row gap-10 justify-between p-10">
           <SideBar />
           <main className="flex-grow">{children}</main>

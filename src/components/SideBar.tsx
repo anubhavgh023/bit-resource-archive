@@ -32,7 +32,7 @@ export default function SideBar() {
   }
 
   return (
-    <div className="border dark:border-slate-600 rounded-sm p-10 flex flex-col items-center justify-center">
+    <div className="border dark:border-slate-600 rounded-sm p-10 flex flex-col items-center justify-start">
       <form
         onSubmit={handleSubmit}
         className="flex flex-col gap-10 items-center"
