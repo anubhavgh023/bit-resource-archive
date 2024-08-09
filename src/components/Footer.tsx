@@ -10,7 +10,7 @@ export default function Footer() {
           <a
             href={"https://github.com/anubhavgh023/"}
             target="_blank"
-            className="hover:underline text-sm"
+            className="hover:underline text-xs"
             rel="noopener noreferrer"
           >
             Anubhav Samanta
@@ -18,7 +18,7 @@ export default function Footer() {
           <a
             href={"https://github.com/theakash04/"}
             target="_blank"
-            className="hover:underline text-sm"
+            className="hover:underline text-xs"
             rel="noopener noreferrer"
           >
             Akash Kumar

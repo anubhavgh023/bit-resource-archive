@@ -21,12 +21,17 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${inter.className} flex flex-col min-h-screen`}>
-        <div className="flex justify-center items-center py-5">
+        <div className="flex justify-center items-center py-5 md:hidden">
           <TitleBar />
         </div>
         <div className="flex-grow flex flex-col md:flex-row lg:flex-row gap-10 justify-between p-10">
           <SideBar />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow">
+            <div className="hidden justify-center items-center py-5 md:flex">
+              <TitleBar />
+            </div>
+            {children}
+          </main>
           <Analytics />
         </div>
         <footer className="mt-auto w-full px-10">
