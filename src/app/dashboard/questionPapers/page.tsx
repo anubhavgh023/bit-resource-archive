@@ -35,8 +35,8 @@ export default function QuestionPaperPage() {
   }, [course,year,semester]);
 
   return (
-    <div className="border border-slate-600 rounded-sm p-10 w-full">
-      <div className="flex flex-col gap-5">
+    <div className=" rounded-sm p-10 w-full h-full flex justify-center">
+      <div className="flex flex-col gap-5 w-full">
         <QuestionPaperDisplay data={questionPaperData}></QuestionPaperDisplay>
       </div>
     </div>

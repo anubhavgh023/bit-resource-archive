@@ -23,7 +23,7 @@ export default function DownloadComponentCard({
         <a href={downloadLink.midsem} className="w-full sm:w-auto">
           <Button
             variant={"outline"}
-            className="w-full sm:w-auto ring-2 ring-blue-400 hover:ring-2 active:scale-95 transition delay-15"
+            className="w-full sm:w-auto ring-1 ring-blue-400 hover:ring-2 active:scale-95 transition delay-15"
           >
             Mid Sem
           </Button>
@@ -33,7 +33,7 @@ export default function DownloadComponentCard({
         <a href={downloadLink.endsem} className="w-full sm:w-auto">
           <Button
             variant={"outline"}
-            className="w-full sm:w-auto ring-2 ring-purple-400 hover:ring-2 active:scale-95 transition delay-15"
+            className="w-full sm:w-auto ring-1 ring-purple-400 hover:ring-2 active:scale-95 transition delay-15 "
           >
             End Sem
           </Button>
