@@ -4,8 +4,8 @@ import "./globals.css";
 import SideBar from "@/components/SideBar";
 import TitleBar from "@/components/TitleBar";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "@/components/Footer";
-import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,6 +33,7 @@ export default function RootLayout({
             {children}
           </main>
           <Analytics />
+          <SpeedInsights/>
         </div>
         <footer className="mt-auto w-full px-10">
           <Footer />
