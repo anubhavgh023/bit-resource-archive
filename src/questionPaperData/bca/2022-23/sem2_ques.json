@@ -1,0 +1,46 @@
+{
+  "semester_2": [
+    {
+      "course": "Concept of Prog. Language",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1tlLspGxeaDL0CLapFrfKZ-zcVoDo9c3_/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1Q1n6JSAVOaozQG2uI56Qgctx0WLYl4SS/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Data Structures",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1xcnraQYVCrx8DcUh1rnAtzpC7ePMgVyu/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1eVOAJw8EH01h-BHpsi-aG6xlibU3vdQd/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Discrete Mathematics",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1NuEptEl_WO9quhHqtFSw_3rlWdaYTkWi/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/17_vAS8KL8IthQWGuGmLUtDz4xvc3Z-Xb/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Environmental Science",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1nxFRzc0m-uLvM2orYPqgLbZMASfq0Mnn/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1qtOJwCm5MfJT5PsvLKovVusR1ob4B0de/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Mathematics for computing",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1R3r-2AYP73exBBAEQXYHWxsYpus-d3aD/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1xqzNJ3EsdUXuT6gxEM9ZgJENsMiWbJJT/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Operating System",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1I5FL-1AL0mn4YWT0F9oeAVFP5vngSD30/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1N6dPuTa5jWWSCKxU1aa6S9as5ucjtnuv/view?usp=drive_link"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "semester_5": [
+    {
+      "course": "Computer Graphics & Multimedia",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/18C2gbdyqQlvX7TiSGYt-kIQGLn75N7c9/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1Wdm2K9fIbvcLF9UIbe3gN8Z1Ek2rovBH/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Computer Network",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1KU341Kvf_YIgLzWiBcHyTZ99HJ0O27Q8/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1NDuS1QIhohsDp0p3OwczhWXKs-vDke0P/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Management Info System",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1SBjPI6mpXAtnyRt05zLCmykFnC90AkCN/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1T8kn9H7KuTGRUp-dlcNUue3HTe_PiAaa/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Python Programming",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1k-4SceZcocqd86jdnVH2tSefvW3D539U/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1f-8Ittwh1knLeDpb3oCCw_DwUQibYIRQ/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Software Testing",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1Ut6_EK8Wd4s0IukLrVuXXR-dPqTDsJ0y/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1r_RPbKn2qEYboV8bF2GwzM3YzCV3HluI/view?usp=drive_link"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "semester_1": [
+    {
+      "course": "Basics of Mathematics",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1bMFsDZZWunXwbO75VJ2u56r6m7HDNSA0/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1z4eX9v8p69dwvUrug7mhU5O_vXkELyTA/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "C Programming",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/18Jj4ibCt2FKRopR5ygT0VWlNRbU3E4-j/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1x5ZmgGYPOLxQvG1VtU9jjwr_Hb08kAR_/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Intro to Comp Sci",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1CyUZoEBdHv3TDVRpOIZ77QHVISyze_tH/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1tvLKD0Q5Il5xiZHY1srqMxS1PwZr-S_O/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Logical Organization of Comp",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1c5zjj76oDVp7AT_XidapWZcDL8inBrGn/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/13oulVplQ7nZTb42Ya0eoAc3tQFJX_4f5/view?usp=drive_link"
+      }
+    }
+  ]
+}

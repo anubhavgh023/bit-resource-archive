@@ -1,0 +1,32 @@
+{
+  "semester_6": [
+    {
+      "course": "Data Mining",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/11ImPdFD-2KyKQYDkFR8bHPTiKtrZ2nFl/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1jdOAyZBtjnaUJ1IBWmYlmY-I7buzlGcp/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Distributed Computing",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1i2rcXFae4gfin-tgCAtlYKZbR1lrzMRh/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/13-qHReBEb7la0xlCbLidZInj9n9Qs86D/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Distributed Database System",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1X1tHR9k_DejeOZ1_6a_BE2x3Kn1RrfWk/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1J-u60nL6-QMvAC7YZUw3zlv_EqU8gXSQ/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Unix & Shell Programming",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1IiJ_NAvOlnHrjotP5YCXKw7iPW9QwvHe/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1RVpiKzHlhi2RVwI3szP5cQxQuFQFS0T_/view?usp=drive_link"
+      }
+    }
+  ]
+}

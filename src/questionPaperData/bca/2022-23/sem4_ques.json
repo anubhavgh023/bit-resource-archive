@@ -1,0 +1,18 @@
+{
+  "semester_4": [
+    {
+      "course": "Software Engineering",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1vhAOk4MuxkkhjKOXj3basOFd0rRzZPFK/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/1AwR1xzP40xQko5OaRYLIBC3JBV4zAJVa/view?usp=drive_link"
+      }
+    },
+    {
+      "course": "Web Programming",
+      "downloadLink": {
+        "midsem": "https://drive.google.com/file/d/1XccgHCLd5bg5u6TW-v726h6T5Lst2rRz/view?usp=drive_link",
+        "endsem": "https://drive.google.com/file/d/14mnAOfm9rzi1-I4RB93K_vbVsiH2fEue/view?usp=drive_link"
+      }
+    }
+  ]
+}
