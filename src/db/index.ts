@@ -10,7 +10,7 @@ async function createFeedbackTable() {
               id SERIAL PRIMARY KEY,
               feedback TEXT NOT NULL,
               email TEXT,
-              createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+              createdAt TIMESTAMP(0) WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP(0)
           )`;
   } catch (error) {
     console.error("Error creating feedback table:", error);
