@@ -59,7 +59,7 @@ export function Feedback() {
               type="email"
               id="email"
               className="col-span-3"
-              placeholder="eamil optional"
+              placeholder="email optional"
               {...register("email")}
             />
           </div>
