@@ -100,7 +100,7 @@ export function Feedback() {
             isSubmitSuccessful ? "text-green-500 block" : "text-rose-500 hidden"
           } text-sm text-center w-full`}
         >
-          {isSubmitSuccessful ? "Feedback submitted!" : "Some Error Occured"}
+          {isSubmitSuccessful ? "Feedback submitted!" : "Some Error Occurred"}
         </div>
       </DialogContent>
     </Dialog>
