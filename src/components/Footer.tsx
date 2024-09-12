@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="items-center flex-col flex">
         <Feedback />
       </div>
-      <div className="flex flex-col px-3 items-center text-center gap-4">
+      <div className="flex flex-col px-3 items-center text-center gap-4 text-slate-400 text-sm">
         <div>
           <span className="block">Want to make a difference? Join us!</span>
         </div>
