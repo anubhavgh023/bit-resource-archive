@@ -41,7 +41,7 @@ export function Feedback() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="text-gray-300 bg-slate-700">Feedback</Button>
+        <Button className="text-gray-300 bg-slate-700 hover:text-black">Feedback</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
