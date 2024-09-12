@@ -41,7 +41,7 @@ export function Feedback() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="default">Feedback</Button>
+        <Button className="text-gray-300 bg-slate-700">Feedback</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
@@ -100,7 +100,7 @@ export function Feedback() {
             isSubmitSuccessful ? "text-green-500 block" : "text-rose-500 hidden"
           } text-sm text-center w-full`}
         >
-          {isSubmitSuccessful ? "Feedback submitted!" : "Some Error Occurred"}
+          {isSubmitSuccessful ? "Feedback submitted!" : "Some Error Occured"}
         </div>
       </DialogContent>
     </Dialog>
