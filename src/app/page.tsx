@@ -13,9 +13,9 @@ export default function Home() {
           width={72}
           height={72}
         ></Image>
-        <span className="text-2xl font-semibold">
+        <span className="text-xl font-semibold text-slate-500">
           <Typewriter
-            words={["Start Searching...","Previous Year Questions"]}
+            words={["Start Searching...","Previous Year Ques"]}
             loop={2.5}
             cursor
             cursorStyle="!"
