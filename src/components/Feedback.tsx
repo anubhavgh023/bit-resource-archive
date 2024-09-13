@@ -65,7 +65,7 @@ export function Feedback() {
           </div>
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="feedback" className="text-right">
-              Feedback <span className="text-red-500">*</span>
+              Feedback*
             </Label>
             <Textarea
               id="feedback"
@@ -86,7 +86,7 @@ export function Feedback() {
             )}
           </div>
           <DialogFooter>
-            <Button type="submit" className="w-max mt-4" size={"lg"}>
+            <Button type="submit" className="mt-4" size={"lg"}>
               {isSubmitting ? (
                 <Loader2 className="animate-spin" />
               ) : (
